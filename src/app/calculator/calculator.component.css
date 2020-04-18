@@ -1,5 +1,5 @@
 .calculator {
-    width: 40%;
+    width: 23em;
     margin: 0 auto;
     height: 500px;
     background-color: cadetblue;
@@ -11,6 +11,7 @@
     font-weight: 600;
     padding: 20px 10px 20px 10px;
     text-align: right;
+    height: 25px;
 }
 .btn {
     height: 87px;

@@ -12,4 +12,20 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  lastkey: any;
+  totalExpression: any = '';
+
+  pressKey(key): any {
+    if (key === 'ac') {
+      this.totalExpression = ''
+      return '';
+    }
+    if (key === '=') {
+      this.totalExpression = 'Answer'
+      return '';
+    }
+    this.totalExpression = this.totalExpression + key
+    this.lastkey = key
+  }
+
 }
