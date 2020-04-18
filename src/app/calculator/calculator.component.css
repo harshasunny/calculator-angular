@@ -1,0 +1,27 @@
+.calculator {
+    width: 40%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: cadetblue;
+    padding: 10px;
+    margin-top: 40px;
+}
+.screen-display {
+    font-size: large;
+    font-weight: 600;
+    padding: 20px 10px 20px 10px;
+    text-align: right;
+}
+.btn {
+    height: 87px;
+    font-size: large;
+    font-weight: 600;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.btn-zero {
+    grid-column-start: 1;
+    grid-column-end: 3
+}
